@@ -1,0 +1,382 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:200,400,700|Arvo|Economica:400,700|Poiret+One|Roboto+Condensed:400,700|Montserrat|Fjalla+One|Vollkorn|Pathway+Gothic+One|Orbitron:400,500|Courgette|Cinzel:400,700|Ruda:400,700|Jura:400,500);
+
+body {
+  font-family:"Adobe Arabic",sans-serif;
+  font-weight:500;
+  font-size:2.2em;
+  position:relative;
+  background-color:#404040;
+  overflow-x:hidden;
+}
+	
+h1,h2,h3,h4,h5,h6 {
+	font-family:"Dosis",tahoma;
+	font-weight:400;
+	margin:0;
+		}
+
+#maincont {
+	background-color:white;
+		}
+		
+#text {
+	font-size:30px;
+		}
+		
+#welcome {
+	border-bottom:10px solid grey;
+		}
+
+#outro {
+	border-top:10px solid grey;
+		}
+		
+#firstrow {
+	padding:15px 0;
+	margin:0;
+		}
+		
+#maincont {
+	box-shadow:0 0 20px black;	
+		}
+		
+#leftside {
+	padding:12px 35px 0 0;
+	border-right:1px solid black;
+	margin:0 0 10px 0;
+		}
+		
+#button {
+	margin:4em 0 0 0;
+		}
+		
+#secondrow {
+	padding:10px;
+	text-align:center;
+		}
+		
+#question {
+	padding:0;
+	margin:20px 0;
+	text-align:center;
+	}
+	
+#faq h3 {
+	margin:10px 0;
+	font-weight:200;
+	font-style:italic;
+	}
+	
+#faq article {
+	margin:0 0 20px 10px;
+	font-family:"Adobe Arabic";
+	font-size:1.1em;
+		}
+		
+#contact h2 {
+	margin:1em 0 1em 0;
+		}
+		
+#contact p {
+	font-size:1.2em;
+	text-indent:15px;
+		}
+		
+#contact img {
+	margin:0.8em;
+		}
+
+#contact ul  {
+	list-style-type:none;
+	margin:2.2em 0;
+		}
+
+#contact img {
+	box-shadow:0 0 15px black;
+		}
+	
+#signform {
+	padding:1.7em 1.5em 1.7em 0;
+	text-align:center;
+		}
+		
+#signform input {
+	border-radius:6px;
+	padding-right:5px;
+	border:1px solid grey;
+		}
+		
+#formbutton {
+	background-color:#104878;
+	color:white;
+	border:0;
+	box-shadow:0 0 5px grey;
+		}
+
+#formbutton:hover {
+	background-color:#0f3b61;
+	color:white;
+	box-shadow:0 0 5px grey;
+		}
+	
+.btn-info {
+	background-color:#104878;
+	margin-bottom:20px;
+	border-radius:7px;
+	border:1px solid #104878;
+	box-shadow:0 0 10px black;
+		}
+		
+.btn-info:hover {
+	background-color:#0f3b61;
+	border:1px solid #0f3b61;
+		}
+		
+#products {
+	padding:20px 0 20px 0;
+	font-family:"Dosis";
+	color:#787878;
+	font-size: .8em;
+		}
+#products h3 {
+	text-align:center;
+	color:#404040;
+	font-family:"Adobe Arabic";
+	font-size:2em;
+		}
+		
+#searchbox {
+	padding:20px;
+	border-top:4px solid grey;
+		}
+		
+#searchbox h4 {
+	font-size:1.8em;
+	font-family:"Adobe Arabic";
+		}
+		
+#searchbox input {
+	border-radius:6px;
+	padding-right:5px;
+	border:1px solid grey;
+		}
+		
+#adminlogin {
+	padding:20px;
+	font-family:"Adobe Arabic";
+	background-color:#f8f8f8;
+	border-radius:7px;
+	box-shadow:0 0 20px black;
+		}
+		
+#adminlogin h3 {
+	text-align:center;
+		}
+		
+#adminlogin input {
+	border-radius:8px;
+		}
+		
+		
+#adminpage {
+	padding:20px;
+	background-color:#f8f8f8;
+	text-align:center;
+	color:#404040;
+		}
+	
+		
+#adminpage table {
+	border-top:3px solid grey;
+	border-bottom:3px solid grey;
+	border-left:3px solid grey;
+	border-right:3px solid grey;
+		}
+	
+#adminpage p {
+	font-size:1.2em;
+		}
+		
+#adminpage a {
+	font-size:1em;
+		}
+		
+		
+/** Navigation **/
+
+header .navbar {
+  padding:20px 0;
+  margin:0;
+}
+
+header .navbar-default {
+  background-color:#104878;
+  border: none;
+}
+
+header .navbar-default .navbar-nav a {
+  color: white;
+  padding: 5px 10px;
+  font-size:16px;
+  line-height:65px;
+  margin:0 8px;
+}
+
+header .navbar-default .navbar-nav a:hover {
+  color:#104878 ;
+  background:white;
+  transition: all ease-out .5s;
+}
+
+header .navbar-default .navbar-nav .active a {
+  font-weight: 900;
+  color:white;
+  background: transparent;
+  border-bottom: 4px solid #104878;
+  text-shadow: none;
+}
+
+header .navbar-default .navbar-nav .active a:hover {
+  color: #104878;
+  background: white;
+  text-shadow: none;
+}
+
+/** Brand Navigation **/
+
+header .navbar-brand {
+  background: url(../imgs/logo.png);
+  background-repeat: no-repeat;
+  background-position: 15px 0;
+  height: auto;
+  border-right:2px solid white;
+}
+
+header .navbar-brand h1 {
+  color: white;
+  margin: 0;
+  font-size: 1.1em;
+  font-weight: 400;
+  padding-left: 3.5em;
+}
+
+header .navbar-brand span.subhead {
+  display: block;
+  font-family: "Roboto Condensed", serif;
+  font-size: .8em;
+  font-weight: 100;
+}
+
+/** Navbar Toggle **/
+
+header .navbar-toggle {
+	background-color:#104878;
+		}
+		
+header .navbar-default .navbar-toggle .icon-bar {
+	background-color:white;
+		}
+		
+@media only screen
+and (max-width: 768px) {
+  header .navbar-collapse.in {
+    background-color: rgba(0,0,0,.5);
+  }
+}
+
+/**  Nav Inbody **/
+
+header .inbody {
+  background: rgba(10,48,78,.9);
+}
+
+header .navbar.inbody {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+header .navbar.inbody .navbar-nav {
+  padding-top: 10px;
+}
+
+header .inbody .navbar-brand {
+  background-size: 53px;
+  background-position: top left;
+  margin-top:8px;
+  padding-bottom: 0;
+}
+
+header .inbody .navbar-brand h1 {
+  font-size: 1.1em;
+  padding-left: 50px;
+}
+
+/** Fading Carousel **/
+
+.carousel.fade {
+  opacity: 1;
+}
+
+.carousel.fade .item {
+  transition: opacity ease-out .7s;
+  left: 0;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block;
+}
+
+.carousel.fade .item:first-child {
+  top: auto;
+  opacity: 1;
+  position: relative;
+}
+
+.carousel.fade .item.active {
+  opacity: 1;
+}
+
+.carousel-control {
+  opacity: 0;
+}
+
+.carousel-control.right,
+.carousel-control.left {
+  background-image: none;
+}
+
+#home .item {
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center center;
+	width:100%;
+	height:100%;
+}
+
+/** Footer **/
+
+footer{
+	color:white;
+	font-size:0.8em;
+	padding:30px 0 40px 0;
+		}
+		
+footer a {
+	color:white;
+		}
+		
+footer a:hover {
+	color:white !important;
+		}
+		
+footer .navbar-default {
+	background:transparent;
+	border:0;
+		}
+		
+footer .phone {
+	margin-left:10px;
+	color:#104878;
+	font-size:1.7em;
+	}
